@@ -8,4 +8,5 @@ git clone https://github.com/xiexiaosheng/helloworld
 rm -rf .svn
 rm -rf ./*/.git
 rm -f .gitattributes .gitignore
+rm -rf .github
 exit 0
