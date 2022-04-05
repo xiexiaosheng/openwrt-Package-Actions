@@ -2,7 +2,7 @@
 #openclash
 rm -rf luci-app-openclash
 rm -rf OpenClash
-git clone https://github.com/vernesong/OpenClash.git
+git clone -b dev https://github.com/vernesong/OpenClash.git
 mv -f OpenClash/luci-app-openclash .
 rm -rf OpenClash
 #KMS
