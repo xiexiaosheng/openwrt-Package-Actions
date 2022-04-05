@@ -1,6 +1,6 @@
 #!/bin/bash
-svn co https://github.com/coolsnowwolf/luci/tree/master/applications/luci-app-vlmcsd ./luci-app-vlmcsd
-git clone -b Dev https://github.com/vernesong/OpenClash
+svn co https://github.com/coolsnowwolf/luci/trunk/applications/luci-app-vlmcsd ./luci-app-vlmcsd
+git clone -b dev https://github.com/vernesong/OpenClash
 mv -f OpenClash/luci-app-openclash .
 rm -rf OpenClash
 git clone https://github.com/xiexiaosheng/helloworld
