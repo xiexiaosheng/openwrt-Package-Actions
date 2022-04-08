@@ -6,10 +6,8 @@ git clone -b dev https://github.com/vernesong/OpenClash.git
 mv -f OpenClash/luci-app-openclash .
 rm -rf OpenClash
 #KMS
-svn co https://github.com/ysc3839/openwrt-vlmcsd/trunk
-svn co https://github.com/cokebar/luci-app-vlmcsd/trunk
-rm -rf openwrt-vlmcsd/.svn/wc.db
-rm -rf luci-app-vlmcsd/.svn/wc.db
+git clone https://github.com/ysc3839/openwrt-vlmcsd
+git clone https://github.com/cokebar/luci-app-vlmcsd
 #SSR-PLUS
 svn co https://github.com/xiexiaosheng/helloworld/trunk ./
 #exit
