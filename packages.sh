@@ -9,7 +9,7 @@ rm -rf OpenClash
 git clone https://github.com/ysc3839/openwrt-vlmcsd
 git clone https://github.com/cokebar/luci-app-vlmcsd
 #SSR-PLUS
-git clone https://github.com/fw876/helloworld ./
+svn co https://github.com/fw876/helloworld ./
 svn co https://github.com/coolsnowwolf/packages/trunk/net/dns2socks
 svn co https://github.com/coolsnowwolf/packages/trunk/net/ipt2socks
 svn co https://github.com/coolsnowwolf/packages/trunk/net/microsocks
@@ -18,7 +18,7 @@ svn co https://github.com/coolsnowwolf/packages/trunk/net/redsocks2
 svn co https://github.com/coolsnowwolf/packages/trunk/net/microsocks
 #svn co https://github.com/xiexiaosheng/helloworld/trunk ./
 #exit
-rm -rf .svn
+rm -rf ./*/.svn
 rm -rf ./*/.git
 rm -f .gitattributes .gitignore
 rm -rf .github
