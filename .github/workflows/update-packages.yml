@@ -57,3 +57,12 @@ jobs:
         git add .
         git commit -m "update$(TZ='Asia/Shanghai' date +@%Y%m%d)"
         git push --quiet "https://${{ secrets.TOKEN }}@github.com/xiexiaosheng/openwrt-package.git" HEAD:main || exit 0
+
+    - name: 清理Actions空间
+      if: env.REPO_TOKEN
+      uses: Mattraks/delete-workflow-runs@main
+      with:
+          token: ${{ secrets.REPO_TOKEN }}
+          repository: ${{ github.repository }}
+          keep_minimum_runs: 0
+          retain_days: ${{ env.retain_days }}
