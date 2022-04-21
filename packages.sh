@@ -1,4 +1,6 @@
 #!/bin/bash
+svn co https://github.com/coolsnowwolf/luci/trunk ./
+rm -rf themes/luci-theme-argon
 #openclash
 rm -rf luci-app-openclash
 rm -rf OpenClash
