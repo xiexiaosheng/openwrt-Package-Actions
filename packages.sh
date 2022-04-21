@@ -11,7 +11,7 @@ git clone https://github.com/jerrykuku/luci-app-argon-config
 svn co https://github.com/fw876/helloworld/trunk ./
 #exit
 rm -rf .svn
-
+rm -rf .*
 rm -rf ./*/.svn
 rm -rf ./*/.git
 rm -f .gitattributes .gitignore
