@@ -8,7 +8,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: 0 */12 * * *
+    - cron: 0 */11 * * *
   watch:
     types: started
 
@@ -63,5 +63,5 @@ jobs:
       with:
           token: ${{ secrets.TOKEN }}
           repository: ${{ github.repository }}
-          keep_minimum_runs: 5
-          retain_days: 5
+          keep_minimum_runs: 3
+          retain_days: 3
