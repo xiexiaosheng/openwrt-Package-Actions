@@ -17,7 +17,6 @@ svn co https://github.com/coolsnowwolf/packages/trunk/net/pdnsd-alt
 svn co https://github.com/coolsnowwolf/packages/trunk/net/redsocks2
 #svn co https://github.com/xiexiaosheng/helloworld/trunk ./
 #luci-theme-argon
-git clone https://github.com/jerrykuku/luci-app-argon-config
 git clone https://github.com/jerrykuku/luci-theme-argon
 #exit
 rm -rf .svn
