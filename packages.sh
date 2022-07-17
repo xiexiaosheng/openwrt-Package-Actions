@@ -18,4 +18,5 @@ rm -rf ./*/.svn
 rm -rf ./*/.git
 rm -f .gitattributes .gitignore
 rm -rf .github
+rm -rf .github
 exit 0
